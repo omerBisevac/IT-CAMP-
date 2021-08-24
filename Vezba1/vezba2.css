@@ -8,9 +8,17 @@ li a {
 }
 div {
     display: inline-block;
+    margin: 10px;
 }
 .container5 {
     margin-left: 100px;
     display: inline-block;
-    color: grey;
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+img , .jedan {
+    display: inline-block;
 }

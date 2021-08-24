@@ -1,0 +1,53 @@
+.container1{
+    display: inline;
+}
+.block1{
+    display: inline-block;
+}
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    
+}
+.same {
+    display: inline-block;
+}
+ul {
+    display: inline;
+    
+}
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+}
+li {
+    display: inline-block;
+    text-align: center;
+}
+a{
+    color: grey;
+    margin: 5px;
+}
+a:hover {
+    color: black;
+}
+.pict {
+    height: 10px;
+    width: 10px;
+
+}
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightgrey
+}
+.btn:hover {
+   background-color: grey;
+}
+.links {
+    display: inline-block;
+    float: right;
+}
