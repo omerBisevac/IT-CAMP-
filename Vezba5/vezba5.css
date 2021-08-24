@@ -1,0 +1,21 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+td, th {
+
+    border: 2px solid black;
+}
+.head {
+    color: white;
+    background-color: green;
+    
+
+}
+td:nth-child(even) {
+    background-color: #27FF23;
+}
+td:nth-child(odd) {
+    background-color: #89FC78;
+}
