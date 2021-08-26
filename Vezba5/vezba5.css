@@ -2,10 +2,12 @@ table {
     border: 2px solid black;
     border-collapse: collapse;
     width: 50%;
+    
 }
 td, th {
 
     border: 2px solid black;
+    padding: 5px;
 }
 .head {
     color: white;

@@ -1,0 +1,60 @@
+.header {
+    border: 1px white solid;
+    background-color: yellow;
+    height: 10%;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.hdr {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.nav {
+    border: 1px white solid;
+    background-color: yellow;
+    display: inline-block;
+    height: 400px;
+    width: 200px;
+    margin-top: 5px;
+}
+.article {
+    border: 1px white solid;
+    background-color: yellow;
+    display: inline-block;
+    height: 400px;
+    width: 920px;
+    margin-left: 13px;
+    
+}
+.nav2 {
+    margin-left: 20px;
+}
+.articl {
+    margin-left: 20px;
+    
+}
+.ads {
+    border: 1px white solid;
+    background-color: yellow;
+    height: 400px;
+    width: 200px;
+    float: right;
+    margin-top: 5px;
+    margin-left: -5px;
+}
+.ads2 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.footer {
+    border: 1px white solid;
+    background-color: yellow;
+    margin-top: 5px;
+    height: 100px;
+}
+.foot {
+    font-size: 20px;
+    margin-left: 10px;
+}
