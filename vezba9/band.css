@@ -1,0 +1,158 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    border: 1px white solid;
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+    
+}
+li {
+    display:inline-block;
+}
+.link2:hover {
+    background-color: grey;
+    
+}
+.right {
+    float: right;
+    
+}
+.right:hover {
+    background-color: red;
+}
+.pict {
+    height: 650px;
+    background-image: url(chicago.jpg);
+    background-size: cover;
+    position: relative;
+    
+}
+.same {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    top: 50;
+    left: 500px;
+}
+.secn {
+    border: 1px white solid;
+    background-color: white;
+}
+h3 {
+    text-align: center;
+}
+.same2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.music {
+    color: grey;
+    text-align: center;
+}
+.first{
+    margin-left: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.name2 {
+    text-align: center;
+}
+.band2 {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    
+}
+.all {
+    display: inline;
+}
+.second {
+    
+    display: inline-block;
+    margin:  10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+.chicago {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    top: 550px;
+    position: relative;
+}
+.third {
+    display: inline-block;
+    
+}
+.tour {
+    border: 2px solid white;
+    background-color: black;
+    height: 1000px;
+}
+.date {
+    text-align: center;
+    color: white;
+    margin-bottom: -20px;
+    letter-spacing: 5px;
+}
+.book{ 
+    color: grey;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+}
+.cards {
+    border: 1px white solid;
+    background-color: white;
+    display: inline-block;
+    margin-left: 550px;
+    width: 600px;
+    
+}
+.months {
+    color: grey;
+}
+.sold {
+    border: 1px #e00715 solid;
+    background-color: #e00715;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+}
+.three {
+    border: 4px black solid;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin-left: 500px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ny {
+    border: 1px black solid;
+    background-color: white;
+    display: inline-block;
+    margin-left: 250px;
+    margin: 5px;
+    
+    padding: 10px;
+}
+.text {
+    padding: 10px;
+}
