@@ -5,9 +5,12 @@ body {
 .nav {
     border: 1px white solid;
     background-color: black;
+    
+    
 }
 ul {
     list-style-type: none;
+    
 }
 a {
     text-decoration: none;
@@ -18,6 +21,7 @@ a {
 }
 li {
     display:inline-block;
+    
 }
 .link2:hover {
     background-color: grey;

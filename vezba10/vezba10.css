@@ -1,0 +1,32 @@
+div {
+    border: 1px solid black;
+    position: absolute;
+    height: 400px;
+    width: 200px;
+    top: 50px;
+}
+.div1 {
+    
+   
+    left: 50px;
+    
+}
+.div2 {
+
+    
+    left: 300px;
+    
+}
+.div3 {
+ 
+ 
+    top: 50px;
+    left: 600px;
+   
+
+}
+.div4 {
+    top: 50px;
+    left: 900px;
+   
+}
