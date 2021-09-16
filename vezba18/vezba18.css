@@ -1,0 +1,30 @@
+.box {
+    padding: 5rem;
+    grid-template-rows: s;
+    
+}
+.boxes{
+    border: solid black 2px;
+}
+.header {
+    background-color: orange;
+    grid-area: header;
+    
+}
+.main {
+    background-color: mediumaquamarine;
+   
+    grid-area: main;
+}
+.sidebar {
+    background-color: red;
+    grid-area: siderbar
+}
+.footer{
+    background-color: green;
+   grid-area: footer;
+}
+.boxes {
+    display: grid;
+    
+}

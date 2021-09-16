@@ -1,0 +1,161 @@
+.header {
+    border: solid 1px white;
+    background-image: url(home.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 120%; 
+    height: 800px;
+}
+.picture {
+    position: sticky;
+    top: 0;
+}
+.nav {
+    display: inline-block;
+    border: solid grey 1px;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    
+    
+}
+.same1 {
+    list-style-type: none;
+    display: inline-block;
+    
+    
+}
+.start {
+    background-color: #0d8f1a;
+    color: white;
+    border-radius: 30px;
+    border-color: #0d8f1a;
+    margin: 10px;
+    margin-left: 150px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px;
+}
+ul {
+    display: inline-block;
+    
+}
+li a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+ li a:hover {
+    color: white;
+}
+.start:hover {
+    background-color:#12b522; 
+}
+h3 a {
+    margin: 100px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+.one {
+    color: #dbd8c8;
+}
+.titl {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.txt {
+    border: solid white 1px;
+    background-color: white;
+}
+#same {
+   position: relative;
+   left: 50%;
+    
+}
+.play {
+    border: 1px;
+    border-radius: 30px;
+    background-color: #0d8f1a;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    margin-left: 300px;
+    width: 100px;
+    
+}
+.play:hover {
+    background-color: #12b522 ;
+}
+.txt_g {
+    color: grey;
+    
+}
+.txt {
+    margin: 20px;
+    margin-left: 30px;
+}
+.fix {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.line {
+    text-align: right;
+}
+.learn {
+    border: green solid 2px;
+    background-color: white;
+    color: green;
+    border-radius: 50px;
+    padding: 10px;
+}
+.learn:hover {
+    background-color: green;
+    color: white;
+}
+.box {
+    border: 2px lightgrey solid;
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 15px;
+    
+    
+    
+}
+.main {
+       display: flex;
+       justify-content: center;
+    
+
+}
+.same3 {
+    padding: 40px;
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+}
+.same3:hover {
+    color: green;
+    
+}
+.servic {
+    margin: 20px;
+}
+@keyframes up {
+    100% {
+        bottom: 5px;
+        box-shadow: 5px green;
+    }
+}
+.greenl {
+   margin: 15px;
+}

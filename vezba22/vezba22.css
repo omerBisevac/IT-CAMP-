@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.first {
+    border: 1px solid grey;
+    height: 350px;
+    width: 300px;
+    margin: 5px;
+}
+.second{
+    border: 1px solid grey;
+    height: 350px;
+    width: 300px;
+    margin: 5px;
+}
+.third{
+    border: 1px solid grey;
+    height: 350px;
+    width: 300px;
+    margin: 5px;
+}
+@media screen and (max-width: 400px) {
+    .container {
+        flex-direction: column;
+    }
+}

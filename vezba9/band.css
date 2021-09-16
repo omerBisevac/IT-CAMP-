@@ -11,6 +11,7 @@ body {
 ul {
     list-style-type: none;
     
+    
 }
 a {
     text-decoration: none;
@@ -21,6 +22,7 @@ a {
 }
 li {
     display:inline-block;
+    transform: scale(1.1);
     
 }
 .link2:hover {
@@ -130,6 +132,7 @@ h3 {
 }
 .months {
     color: grey;
+    padding-left: 10px;
 }
 .sold {
     border: 1px #e00715 solid;

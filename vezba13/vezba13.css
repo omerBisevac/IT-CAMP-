@@ -1,0 +1,32 @@
+.main-div {
+    border: 1px solid black;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.prvi,
+.drugi,
+.treci,
+.cetvrti {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+}
+.prvi {
+    background-color: pink;
+}
+.drugi {
+    background-color: blue;
+}
+.treci {
+    background-color: chartreuse;
+}
+.cetvrti {
+    background-color: grey;
+}
