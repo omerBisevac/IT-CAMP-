@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(#6060FA, transparent), url(comp.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    font-family: sans-serif;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titl {
+    text-align: center;
+    color: white;
+}
+.txt {
+    text-align: center;
+}
+.main {
+    border: 1px solid #111135;
+    background-color: #111135;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 20px 50px;
+    
+}
+form {
+    width: 100%;
+}
+p {
+    color: white;
+}
+.same {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+.opt {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+.same2 {
+    padding: 10px;
+    color: white;
+}
+.opt2 {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+textarea {
+    resize: vertical;
+    width: 100%;
+}
+.btn {
+    color: white;
+    background-color: green;
+    width: 100%;
+    border: 1px solid green;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.white {
+    color: white;
+    margin: 10px;
+}
+.input {
+    padding: 5px;
+    
+}
+@media screen and (max-width: 500px) {
+   .same2 {
+       width: 50%;
+
+   }
+   
+
+   
+}
+@media screen and (max-width: 300px) {
+    .same2 {
+        width: 30%;
+        
+    }
+    .main {
+        padding: 20px;
+    }
+   
+}

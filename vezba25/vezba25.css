@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    /* background: url(people.jpg);  */
+    /* background-repeat: no-repeat;  */
+    /* background-size: 100% 100vh;  */
+}
+
+.container {
+    border: 1px solid white;
+  }
+.nav {
+    border: 1px solid black;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+.rem {
+    color: white;
+    margin: 5px;
+    font-size: 35px;
+    
+}
+ul {
+    display: flex;
+   align-items: center;
+}
+li {
+    list-style-type: none;
+    text-align: right;
+    margin-left: 80px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    
+    
+ }
+li a:hover {
+    color: green;
+    transition: 1s;
+}
+.titl {
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    
+}
+.txt {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+.this {
+    /* margin-left: 450px; */
+    /* margin-top: 100px; */
+    background-image: linear-gradient(black, transparent) ,url(people.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100% 100vh;
+    height: 500px;
+}
+.btn {
+    border: 1px solid rgb(36, 184, 36);
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgba(12, 3, 3, 0.253);
+    color: white;
+    width: 130px;
+    margin-left: 600px;
+    font-size: 18px;
+    
+}
+.btn:hover {
+    background-color: rgb(36, 184, 36);
+    transition: 0.6s;
+}
+.my {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+.cent{
+    display: flex;
+}
+.cent2 {
+    background-image: url(br3.jpg);
+    height: 400px;
+    width: 500px;
+    margin-left: 30px;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.play {
+    border: 1px solid rgb(36, 184, 36);
+    border-radius: 50px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(36, 184, 36);
+    color: white;
+    border: 5px solid rgb(111, 230, 111)
+
+}
+.aboutus {
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    background-color: lightgray;
+    margin: 15px;
+    width: 100px;
+    height: 40px;
+    color: rgb(36, 184, 36);
+}
