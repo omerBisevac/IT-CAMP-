@@ -351,6 +351,12 @@ h2 {
 }
 .same8 {
     width: 50vh;
+    margin: 10px 50px;
+}
+.same8:hover {
+    height: 35vh;
+    transition: 0.7s;
+    
 }
 .move{
     text-align: center;
@@ -392,13 +398,103 @@ h2 {
 }
 .quotes {
     border: 1px solid grey;
-    height: 30vh;
-    background: url(office.jfif);
+    height: 50vh;
+    background: linear-gradient(black, transparent), url(office2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
 }
 .goodman {
     width: 50px;
     height: 50px;
+    border: 5px solid lightgrey;
+    border-radius: 30px;
+    margin: 50px;
+}
+.saul {
+    color: white;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.ten {
+    padding-bottom: 40px;
+    color: white;
+    font-family: sans-serif;
+
+}
+.ceo {
+    color: white;
+    font-family: sans-serif;
+}
+.pricing {
+    border: 1px solid lightgrey;
+    background-color: lightgray;
+    color:rgb(36, 184, 36);
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+.check {
+    color: #3d3837;
+}
+.pric {
+    color:rgb(36, 184, 36);
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.card {
+    border: 1px solid rgb(233, 225, 225);
+    background-color:  rgb(233, 225, 225);
+    padding: 10px 100px;
+    border-radius: 10px; 
+}
+.dol {
+    color:rgb(36, 184, 36)
+}
+.zer {
+    color:rgb(36, 184, 36);
+    font-size: 40px;
+}
+.month {
+    color: grey;
+}
+.strike1 {
+    text-decoration: line-through;
+    color: grey;
+}
+.card2 {
+    border: 1px solid rgb(36, 184, 36) ;
+    
+}
+.buy1 {
+    border: 2px solid rgb(36, 184, 36) ;
+    background-color: lightgrey;
+    color:rgb(36, 184, 36);
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin: 10px;
+
+}
+
+.buy2 {
+    color: white;
+    background-color:rgb(36, 184, 36);
+    border: 1px solid  rgb(36, 184, 36);
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.buy2:hover{
+    background-color: green;
+}
+.buy1:hover {
+    background-color:rgb(36, 184, 36);
+    color: white;
+    transition: 0.3s;
+}
+.busines {
+    font-weight: bold;
 }
