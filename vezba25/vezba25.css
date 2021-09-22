@@ -54,6 +54,30 @@ li a:hover {
     margin: 0px;
     
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown-content {
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    width: 40px;
+    z-index: 1;
+}
+.links3 {
+    color: black;
+    display: inline-block;
+    min-width: 160px;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 .txt {
     color: white;
     font-size: 25px;
