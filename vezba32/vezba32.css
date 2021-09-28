@@ -5,13 +5,14 @@ body {
     margin: 0px;
 }
 .nav {
-    border: 1px solid rgb(44, 41, 41);;
-    background-color: rgb(44, 41, 41);;
+    border: 1px solid rgb(44, 41, 41);
+    background-color: rgb(44, 41, 41);
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
+    top: 0px;
 }
 .cab,.ulo {
     margin: 10px;
@@ -103,4 +104,107 @@ input{
 .s {
     margin: 20px;
     margin-left: 40px;
+}
+.our {
+    background-color: rgb(44, 41, 41);
+    border: 1px solid rgb(44, 41, 41);
+    margin-top: 10vh;
+    
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tops{
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+}
+.tax { 
+    color:rgba(238, 238, 17, 0.904);
+}
+.box {
+    background-color: white;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one {
+    border: 1px solid rgba(238, 238, 17, 0.904);
+    background-color: rgba(238, 238, 17, 0.904);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 10px;
+    z-index: 50;
+}
+.taxi2 {
+    width: 80%;
+}
+.car {
+    font-size: 5vh;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.firstrow { 
+    display: flex;
+    flex-direction: row;
+    
+}
+.wallet {
+    width: 30vw;
+    height: 20vw;
+    margin: 30px;
+}
+.test {
+    display: flex;
+    flex-direction: column;
+}
+.ride {
+    font-size: 5vw;
+}
+.with-u {
+    color:rgba(238, 238, 17, 0.904);
+
+}
+.now {
+    color: white;
+    border:1px solid rgba(238, 238, 17, 0.904);
+    background-color:rgba(238, 238, 17, 0.904);
+    padding: 10px 10px;
+    width: 25%;
+}
+.now:hover {
+    background-color: black;
+    border: 1px solid black;
+}
+.secondrow {
+    display: flex;
+    align-items: center ;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.cabt {
+    margin: 10px;
+    
+}
+.thirdrow{ 
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.fourthrow {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
