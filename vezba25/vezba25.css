@@ -61,20 +61,38 @@ li a:hover {
 }
 .dropdown-content {
     text-decoration: none;
-    display: none;
+    display: none; 
     position: absolute;
     color: black;
-    border: 1px solid black;
-    padding: 10px 20px;
-    width: 40px;
-    z-index: 1;
+    border: 1px solid white;
+    background-color: white;
+    height: 20vh;
+    border-radius: 10px;
+    /* padding: 10px 40px; */
+    /* width: 40px; */
+/* z-index: 1; */
+}
+.drop1 {
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.drop1:hover {
+     color:rgb(7, 181, 7);
 }
 .links3 {
     color: black;
-    display: inline-block;
-    min-width: 160px;
-    text-align: center;
-}
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+    /* min-width: 160px; */
+    /* text-align: center; */
+    
+    
+  }
 .dropdown:hover .dropdown-content{
     display: block;
 }
@@ -133,10 +151,13 @@ li a:hover {
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
+    
+    
 }
 .sameline {
     display: flex;
 }
+
 .play {
     border: 1px solid rgb(36, 184, 36);
     border-radius: 50px;
@@ -152,7 +173,7 @@ li a:hover {
     height: 100px;
     width: 100px;
 }
-.aboutus {
+#aboutus {
     border: 1px solid lightgray;
     border-radius: 30px;
     background-color: lightgray;
@@ -299,7 +320,7 @@ h2 {
     text-align: center;
     font-family: sans-serif;
 }
-.servic {
+#servic {
     border: 1px solid lightgray;
     background-color: lightgray;
     color:rgb(36, 184, 36);
@@ -573,4 +594,141 @@ h2 {
 }
 .drop:hover {
     display: block;
+}
+.qus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.firstq {
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px 30px;
+    margin: 10px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #3d3837;
+}
+.non {
+    display: none;
+}
+.someon {
+    color: black;
+}
+.someone:hover .non {
+    display: block;
+}
+.one2 {
+    color:rgb(36, 184, 36);
+    margin: 10px;
+}
+.two{
+    margin: 5px 5px 5px 50px;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cont3 {
+    color:rgb(36, 184, 36);
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 20px;
+}
+.contact2 {
+    color:rgb(36, 184, 36);
+}
+.place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.every {
+    margin: 10px;
+    height: 50px;
+    width: 50vw;
+}
+.every2{
+    margin: 10px;
+    height: 100px;
+    width: 50vw;
+}
+.msg {
+    color: white;
+    background-color:rgb(36, 184, 36);
+    border: 1px solid  rgb(2, 155, 2);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.msg:hover{
+    background-color: green;
+}
+.foot {
+    background: linear-gradient(black, transparent), url(mountian.jpg);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mem1,.mem2 {
+    color: white;
+}
+.mem1 {
+    font-size: 5vw;
+}
+.icons {
+    color: white;
+    margin: 10px;
+    border: 1px solid rgb(36, 184, 36);
+    background-color: rgb(36, 184, 36);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.icons:hover {
+    background-color: rgb(7, 181, 7);
+}
+.fonts {
+    display: flex;
+}
+.in {
+    padding: 10px 50vh 10px 5px;
+    border-radius: 20px;
+    border: 1px solid white;
+    z-index: 1;
+}
+.subsc {
+    color: white;
+    background-color:rgb(36, 184, 36);
+    border:1px solid rgb(36, 184, 36);
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.subsc:hover {
+    background-color: rgb(7, 181, 7);
+}
+.cop1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cop {
+    text-align: left;
+    margin-top: 50px;
+}
+.cop2  {
+    font-weight: bolder;
 }

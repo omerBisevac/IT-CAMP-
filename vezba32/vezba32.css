@@ -1,0 +1,106 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    margin: 0px;
+}
+.nav {
+    border: 1px solid rgb(44, 41, 41);;
+    background-color: rgb(44, 41, 41);;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+.cab,.ulo {
+    margin: 10px;
+    font-size: 3vw;
+}
+.cab {
+    color: yellow;
+}
+.icons {
+    display:flex;
+    align-items: center;
+    margin: 10px;
+}
+ ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+li {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+}
+.nav2 {
+    text-decoration: none;
+    color: white;
+}
+.nav2:hover {
+    color: yellow;
+}
+.srch {
+    margin: 10px;
+}
+.header {
+    background-color: rgb(44, 41, 41);;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.book {
+    background-color: rgba(238, 238, 17, 0.904);
+    display: inline-block;
+    padding: 10px;
+    height: 40vh;
+}
+.same2 {
+    margin: 0px;
+    color: white;
+    font-size: 5vh;
+}
+.same3 {
+    font-size: 5vh;
+}
+.this {
+    color: black;
+    text-align: center;
+}
+.travel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: right;
+    height: 50vh;
+    padding: 10px 30px;
+}
+input{
+    margin: 10px; 
+    width: 30vw;
+    height: 5vh;
+}
+.this2{
+    color: white;
+}
+.btn {
+    color: white;
+    border: 1px solid rgb(44, 41, 41);
+    background-color: rgb(44, 41, 41);
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+.btn:hover {
+    color: black;
+    background-color:rgba(238, 238, 17, 0.904);
+    border: rgba(238, 238, 17, 0.904);
+}
+.s {
+    margin: 20px;
+    margin-left: 40px;
+}

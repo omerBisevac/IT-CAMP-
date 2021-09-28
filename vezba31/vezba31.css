@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+}
+.nav {
+    border: 1px solid rgb(44, 38, 38);
+    background-color: rgb(44, 38, 38);
+    height: 15vh;
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+.lista {
+    border: 1px solid red;
+    width: 30px;
+}
+.dropdown {
+    display: none;
+    border: 1px solid yellow;
+    position: absolute;
+    right: 50px;
+}
+.lista:hover .dropdown {
+    display: block;
+}
