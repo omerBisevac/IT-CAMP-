@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    border: 1px solid white;
+    
+}
+.heading {
+    background-color: #f3ab4b;
+    text-align: center;
+    padding: 10px;
+}
+.mainprj {
+    background: linear-gradient(violet,rgb(181, 28, 181));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.cal {
+    height: 300px;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; 
+    padding: 20px;
+    
+    
+}
+.box {
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 5px;
+}

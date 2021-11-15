@@ -1,0 +1,36 @@
+body {
+    background-color: greenyellow;
+}
+#num {
+    text-align: center;
+    font-size: 100px;
+}
+#count {
+    text-align: center;
+    font-size: 100px;
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    
+}
+#inc {
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    width: 50vh;
+    margin: 10px;
+}
+#dec {
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    width: 50vh;
+    margin: 10px;
+}
