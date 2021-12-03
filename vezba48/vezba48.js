@@ -158,36 +158,213 @@
 
 
 
-var person = {
-    name : "Omer",
-    last : "Bisevac",
-    age: 18,
-    sayHello: function () {
-        console.log(this);//whole object , 
-        console.log(this.name);
-    }
-};
+// var person = {
+//     name : "Omer",
+//     last : "Bisevac",
+//     age: 18,
+//     sayHello: function () {
+//         console.log(this);//whole object , 
+//         console.log(this.name);
+//     }
+// };
 
-person.sayHello();
-
-
-
-a = [1,2,3,4,5];
-
-var nova = a.map(function (element,index,array
-    ){
-    console.log(element);
-    console.log(index);
-}
-)
+// person.sayHello();
 
 
-console.log(nova);
 
-function doubleNumbers(arr) {
-       b=arr.map(s += i)
-       // function (){
-         //   return el* 2;
+// a = [1,2,3,4,5];
 
-        //}
-    }
+// var nova = a.map(function (element,index,array
+//     ){
+//     console.log(element);
+//     console.log(index);
+// }
+// )
+
+
+// console.log(nova);
+
+// function doubleNumbers(arr) {
+//        b=arr.map(s += i)
+//        // function (){
+//          //   return el* 2;
+
+//         //}
+//     }
+
+// var numbers = [56,4,78,2,4];
+
+// numbers.forEach(function (el){
+//     console.log(el);
+// }
+// );
+
+//filter
+// numbers = [1,3,4,5,12,6];
+
+// fniz = numbers.filter(function (el) {
+//     return el>2;
+// });
+// console.log(fniz);
+
+// //every
+// numbers = [12,3,4,5,1];
+// ev = numbers.every(function (el){
+//     return el > 5;
+// })
+// console.log(ev);
+// some (da li svi elemtni ispunjavanju uslov;)
+
+
+
+
+//indexOf
+// numbers = ["orange",'apple','banana'];
+
+// num = numbers.indexOf("apple");
+// console.log(num);
+// //includes
+// fruits = ['apple','bannana','mango'];
+
+// a = fruits.includes('apple');
+
+// console.log(a);
+// // find 
+// numbers = [1,2,3,4,5,6,7];
+
+// a = numbers.find(function (el) {
+//     return el > 5;
+// });
+
+
+// console.log(a);
+//
+// var fun = ()=>{
+//     console.log("arrow function");
+// }
+// fun();
+
+// var numbers = [12,3,51,31,31,451];
+// var s = numbers.filter((el) => {
+//     return el > 5;
+// })
+// console.log(s);
+
+//
+// var people = [
+//     {
+//         name: "Angelina Jolie",
+//         age: 80
+//     },
+//     {
+//         name: "Eric Jones",
+//         age: 2
+//     },
+//     {
+//         name: "Paris Hilton",
+//         age: 5
+//     },
+//     {
+//         name: "Kayne West",
+//         age: 16
+//     },
+//     {
+//         name: "Bob Ziroll",
+//         age: 100
+//     }
+// ]
+
+
+// function provera(ljudi){
+//     names = people.map((el) => {
+//       if(el.age>18){
+//           return `${el.name} moze`;
+//       }
+//       else {
+//           return `${el.name} ne`;
+//       } 
+//     }
+//     console.log(names);
+//  }
+//  provera(ljudi);
+// var ar = [
+//     {
+//         name: "Angelina Jolie",
+//         age: 80
+//     },
+//     {
+//         name: "Eric Jones",
+//         age: 2
+//     },
+//     {
+//         name: "Paris Hilton",
+//         age: 5
+//     },
+//     {
+//         name: "Kayne West",
+//         age: 16
+//     },
+//     {
+//         name: "Bob Ziroll",
+//         age: 100
+//     }
+// ]
+// var names = ar.map(function (el){
+//     return el.name;
+// });
+// console.log(names);
+
+// a = () => {
+//     let k = "nesto";
+//     console.log(k);
+// };
+
+// a();
+// b=7;
+// c = 11;
+// k = "Hello World";
+// console.log(k);
+// scope ,clousers,hoisting
+//dete ima pristup roditelju dok roditelj nema pristup detetu
+
+
+//For a given lesson time in minutes (min) , write a function price to calculate how much the lesson costs
+// var unos = Number(prompt("Unesite broja sati:"));
+// var price = 30;
+
+
+// function time(mins) {
+//     sum = 30;
+//     mins -=60;
+//     while(mins>5){
+//         sum+=10;
+//         mins-=30;
+//     }
+//     return sum;
+// };
+
+// time(unos);
+// var unos = Number(prompt("Unesite broj:"));
+// function snumber(n) {
+//     var specialNumbers = [0,1,2,3,4,5];
+//     n  = n.toString();
+//     for(i=0;i<n;i++){
+//      if(specialNumbers.includes(parseInt(n[i]))){
+//          return "Special";
+//      }
+//      else {
+//         return "NOT!!";
+//      }
+
+//  }
+
+    
+
+// }
+// console.log(snumber(unos));
+
+// function isPOwerOfTwo(n) {
+   
+
+// }
+// isPOwerOfTwo(333);
