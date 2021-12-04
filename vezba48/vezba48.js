@@ -368,3 +368,36 @@
 
 // }
 // isPOwerOfTwo(333);
+//Home work
+
+var unos = parseInt(prompt("Unesite brojs lopti veci od 1:"));
+
+function balls(lopte) {
+    var levels = 0;
+    loptice = [1,2,3,4,5];
+    var s;
+   for(i=1;i<=lopte;i++){
+       
+   }
+   
+    // switch(lopte) {
+    //     case 1:
+    //         return 1;
+    //         break;
+    //     case 3:
+    //         return 2;
+    //         break;
+    //     case 6:
+    //         return 3;
+    //         break;
+    //     case 10:
+    //         return 4;
+    //         break;
+    //     case 15:
+    //         return 5;
+    //         break;
+    // }
+
+
+}
+balls(unos);
