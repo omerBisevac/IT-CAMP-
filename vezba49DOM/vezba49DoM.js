@@ -23,12 +23,31 @@
 //     el.style.margin = "50px";
 // }
 
-function change() {
-    var el = document.getElementById('text');
-    el.innerText="Different text";
-    el.style.fontFamily = "Georgia";
-    el.style.fontSize = "100px";
-    el.style.background = "black";
-    el.style.color = "white";
+// function change() {
+//     var el = document.getElementById('text');
+//     el.innerText="Different text";
+//     el.style.fontFamily = "Georgia";
+//     el.style.fontSize = "100px";
+//     el.style.background = "black";
+//     el.style.color = "white";
 
+// }
+function change() {
+    var hed1 = document.getElementsByTagName("h2")
+    for(i of hed1) {
+        i.style.color = "yellow";
+    }
 }
+function changet() {
+    var hed2 = document.getElementsByTagName("h1");
+    hed2 = Array.from(hed2);
+
+    hed2.map((el) => {
+        el.style.color = "lightblue";
+    })
+}
+
+function handler() {
+    document.getElementById("smthng").innerHTML = "<h1>Text</h1>";
+}
+//
