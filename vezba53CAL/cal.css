@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cl {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    border: 1px solid lightgrey;
+    padding: 15px 20px;
+    margin: 5px;
+    width: 100px;
+}
+#br {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    border: 1px solid lightgrey;
+    padding: 30px 20px;
+    height: 30px;
+}
