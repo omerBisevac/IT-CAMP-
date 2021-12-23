@@ -1,43 +1,69 @@
+//Elements
 var btn = document.getElementById("bt");
 var todo = document.querySelector("#todo-list");
 var words = document.getElementById("words").innerText = "";
-console.log(words);
-// console.log(words);
-// console.log(todo);
-// console.log(btn);
+var ins = document.querySelector("#ins");
 var inp = document.querySelector("#words");
-console.log(inp);
+//
 btn.addEventListener("click",(s) => {
-    s.preventDefault();
-    var newItem = document.createElement("div");
-    // newItem.style.border= "1px solid white";
-    // newItem.style.margin = "5px";
-    // newItem.style.padding = "20px ";
-    // newItem.style.backgroundColor = "white";  
+    s.preventDefault();//stops refreshing website
+    //creating element "li" after appedning it to "div" and "li"
+    let newItem = document.createElement("li");
+    ins.appendChild(newItem); 
     newItem.classList.add("btn");  
     console.log(newItem);
     newItem.innerHTML = inp.value;
+    addLocal(inp.value);
     inp.value = "";
     todo.appendChild(newItem);
     //newItem.addEventListener("click",del);
+    //check button
     var check = document.createElement("button");
     check.classList.add("check");
     check.innerHTML = '<i class="fas fa-check"></i>';
     newItem.appendChild(check);
+    //dell button
     const dell = document.createElement("button");
     dell.innerHTML = '<i class="fas fa-trash-alt"></i>';
     dell.classList.add("del");
     newItem.appendChild(dell);
-    dell.addEventListener("click",() => {
+    dell.addEventListener("click",dellet);
+    function dellet() {
+        newItem.classList.add("falling");
         newItem.remove();
-    });
+        
+    }
     check.addEventListener("click",() => {
-           newItem.style.opacity = "0.7";
-        //    inp.value
+        newItem.style.opacity = "0.5";
+        newItem.style.textDecoration = "line-through";
     })
 })
-// function del(e) {
-//     todo.target.remove();
-// }
 
-localStorage.clear();
+//Adding element in local storage
+function addLocal(todo){
+    let todos;
+    if(localStorage.getItem("todos") === null) {
+        todos = [];
+
+    }
+    else {
+        todos = JSON.parse(localStorage.getItem('todos'));
+    }
+    todos.push(todo);
+    localStorage.setItem('todos',JSON.stringify(todos));;
+
+}
+
+//Removing element from Local storage
+function removeLocalTodo(){
+    let todos;
+    if(localStorage.getItem("todos") === null){
+        todos = [];
+    }
+    else{
+        todos = JSON.parse(localStorage.getItem("todos"));
+    }
+    todos.remove();
+
+
+}
