@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.night {
+    border: 1px solid rgb(80, 52, 52);
+    background-color: rgb(80, 52, 52);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.div-quote {
+    border: 1px solid rgb(80, 52, 52);
+    padding: 10px;
+    height: 50vh;
+    width: 50%;
+    
+}
+.mot {
+    text-align: center;
+}
+.make{
+    border: 1px solid rgb(80, 52, 52);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get {
+    margin: 10px;
+    border: 1px solid rgb(80, 52, 52);
+    color: rgb(80, 52, 52);
+    padding: 10px 15px;
+    background-color: white;
+}
+.get:hover{
+    background-color: rgb(80, 52, 52);
+    color: white;
+    transition: 0.2s;
+}

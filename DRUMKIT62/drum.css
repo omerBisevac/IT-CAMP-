@@ -1,0 +1,41 @@
+body {
+    background-image: url(crowd.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+  }
+  .smt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+  }
+  .btn {
+    font-size: x-large;
+    padding: 10px 20px;
+    color: rgb(255, 174, 0);
+    border: 2px solid black;
+    margin: 10px;
+    background-color: transparent;
+  }
+  .btn:hover {
+    border: 2px solid yellow;
+    transition: all 0.2s ease;
+    transform: scale(1.2);
+  }
+  .boom {
+    font-size: small;
+    color: yellow;
+  }
+  .playing {
+    border: 2px solid yellow;
+    transition: all 0.2s ease;
+    transform: scale(1.2);
+  }
+  

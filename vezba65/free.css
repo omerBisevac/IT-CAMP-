@@ -1,0 +1,160 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin:0px;
+}
+.nav{
+    border: 1px solid darkred;
+    background-color: darkred;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    
+}
+ ul{
+    display: flex;
+    justify-content: right;
+    align-content: center;
+} 
+.nav-it{
+    color: white;
+    text-decoration: none;
+    margin: 30px 0px 10px 10px;
+    padding: 20px;
+    font-size: 25px;
+
+}
+.nav-it:hover{
+    background-color: rgb(13, 13, 112);
+}
+.bok{
+    list-style-type: none;
+    display: inline-block;
+    align-content: center;
+    scroll-behavior: smooth;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px;
+    height: 85vh;
+    background-color: rgb(93, 81, 81);
+}
+
+.name {
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    font-size: 80px;
+    /* position: absolute;
+    top: 50vh; */
+}
+.web{
+    color: red;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.pr{
+    background-color: rgb(18, 18, 109);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+#these{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    scroll-behavior: smooth;
+}
+#line{
+    color: white;
+    width: 50%;
+}
+.imgs{
+    width: 25vw;
+    height: 50vh;;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.same{
+    border: 1px solid lightgrey;
+    margin: 10px;
+    background-color:rgb(93, 81, 81);
+}
+.same2 {
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+.showall{
+    color: white;
+    border: 1px solid rgb(93, 81, 81);
+    background-color:rgb(93, 81, 81);
+    padding: 10px;
+    width: 30%;
+    margin: 10px;
+    margin-left: 30rem;
+}
+.showall:hover{
+    background-color: red;
+    transition: 0.2s;
+    border: red;
+}
+.work{
+    background-color: rgb(30, 32, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 85vh;
+    text-align: center;
+}
+#lets {
+    margin: 0px;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    scroll-behavior: smooth;
+}
+.follow{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    font-size: 25px
+}
+.foot {
+    border-top: 10px solid red;
+    background-color: rgb(30, 32, 54);
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.fake {
+    color: white;
+    margin: 0px;
+    padding: 50px;
+}
+.coffe{
+    color: white;
+}
+@media  (max-width: 500px) {
+    .pr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}

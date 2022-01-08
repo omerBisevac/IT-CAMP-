@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0px
+}
+.container{
+    display: flex;
+    flex: wrap;
+    
+}
+.js-left{
+    border: 1px solid grey;
+    overflow: auto;
+    position: static;
+    height: 100vh;
+    position: sticky;
+    top:0;
+}
+#main-doc{
+    margin: 20px;
+}
+.first{
+    border-bottom: 1px solid black;
+}
+.stick {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.links {
+    text-decoration: none;
+    color:black;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.codes {
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}

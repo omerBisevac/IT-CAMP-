@@ -1,22 +1,39 @@
+ *{
+    font-family: sans-serif;
+}
 body{
-    background-image: url(work.jpg);
+    background-image: url(works.jfif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient("#1b1b32",transparent);
+
 }
-/* .main {
+/* .main .
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+/* .pict{
+   width: 100%;
+   position: relative;
+   text-align: center;
 } */
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(48, 48, 175);
-    padding: 20px;
-    margin: 100px;
+    background: linear-gradient(50deg,rgb(20, 20, 92),transparent);
+    padding: 15px;
+    /* margin: 200px; */
+    width: 45%;
+    border: 1px solid rgb(20, 20, 92);
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #title,#description{
     color:white;
@@ -24,12 +41,50 @@ body{
 }
 p{
     color: white;
+    font-size: 20px;
 }
 .inp,.opt {
-    padding: 10px 100px;
+    width: 100%;
+    padding: 10px;
+    /* padding: 15px 50%; */
+    /* padding: 10px 100px; */
     border-radius: 5px;
     border: 1px solid white;
 }
 #survey-from{
     font-size: 30px;
 }
+
+
+.same{
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.two {
+    padding: 10px;
+}
+.front{
+    font-size: 25px;
+    color: white;
+    margin: 5px
+}
+input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+}
+.comm{
+    width: 100%;
+    height: 20vh;
+}
+.btn{
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+    width: 100%;
+    padding: 15px;
+}
+.btn:hover{
+    background-color: rgb(23, 149, 23);
+    border: 1px solid rgb(23, 149, 23)
+} 

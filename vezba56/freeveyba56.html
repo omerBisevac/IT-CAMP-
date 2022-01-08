@@ -10,7 +10,7 @@
 <body>
     <div class="main">
         <h1 id="title">freeCodeCamp Survey Form</h1>
-        <p id="description"><i>Thank zou for taking the time to help us improve the platform</i></p>
+        <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
         <div class="container">
             <form id = "survey-form">
                 <p id="name">Name</p>
@@ -20,7 +20,7 @@
                 <p>Age</p>
                 <input type="number" class="inp" placeholder="Enter your age">
                 <p>Which option best describes your current role?</p>
-                <select name="" id="" class="opt">
+                <select name="" id="" class="opt twi">
                     <option value="">Select current Role</option>
                     <option value="">Student</option>
                     <option value="">Full Time Job</option>
@@ -30,32 +30,33 @@
 
                 </select>
                 <p>Would you recomment freeCodeCampe to a friend?</p>
-                <input type="radio">Definetly<br />
-                <input type="radio">Maybe<br />
-                <input type="radio">Not Sure
-
+                <div class="def">
+                <input type="radio" class="opts"><span class="same">Definetly</span><br />
+                <input type="radio" class="opts"><span class="same">Maybe</span><br />
+                <input type="radio" class="opts"><span class="same">Not Sure</span>
+                    </div>
                 <p>What is your favorite feature of freeCodeCamp?</p>
-                <select name="" id="">
+                <select name="" id="" class="opt">
                     <option value="">Challenges</option>
                     <option value="">Projects</option>
                     <option value="">Community</option>
                     <option value="">Open Source</option>
                 </select>
                 <p>What would you like to see improved?(Check all that applly)</p>
-                <input type="checkbox">Front-end Projects<br />
-                <input type="checkbox">Back-end Projexts<br />
-                <input type="checkbox">Data Visualization<br />
-                <input type="checkbox">Challenges<br />
-                <input type="checkbox">Open Source Community<br />
-                <input type="checkbox">Gitter help rooms<br />
-                <input type="checkbox">Videos<br />
-                <input type="checkbox">Coty Meetips<br />
-                <input type="checkbox">Wiki<br />
-                <input type="checkbox">Forum<br />
-                <input type="checkbox">Additional Courses
+                <input type="checkbox"><span class="front">Front-end Projects</span><br />
+                <input type="checkbox"><span class="front">Back-end Projexts</span><br />
+                <input type="checkbox"><span class="front">Data Visualization</span><br />
+                <input type="checkbox"><span class="front">Challenges</span><br />
+                <input type="checkbox"><span class="front">Open Source Community</span><br />
+                <input type="checkbox"><span class="front">Gitter help rooms</span><br />
+                <input type="checkbox"><span class="front">Videos</span><br />
+                <input type="checkbox"><span class="front">Coty Meetips</span><br />
+                <input type="checkbox"><span class="front">Wiki</span><br />
+                <input type="checkbox"><span class="front">Forum</span><br />
+                <input type="checkbox"><span class="front">Additional Courses</span>
                 <p>Any comments or suggestions?</p>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <button>Submit</button>
+                <textarea name="" id="" cols="30" rows="10" class="comm" placeholder="Enter your comment here..."></textarea>
+                <button class="btn">Submit</button>
             </form>
        </div> 
     </div>
