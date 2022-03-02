@@ -1,0 +1,28 @@
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vh;
+    height: 50vh;
+}
+.mypict {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+.name {
+    font-weight: bold;
+}
+.name2 {
+    color: grey;
+    margin: 0px;
+}
